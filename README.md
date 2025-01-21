@@ -7,7 +7,7 @@ Pre-requisites:
 Inside the working directory where "api.py" is located, make sure you create 2 folders named, "model" and "uploaded_files" for storing the trained model and the training data respectively.
 Also, check "api.py" file and make sure all dependencies are met and all libraries are installed in the environment before running the api server.
 
-To run the api server, download the "API" folder and then inside the directory, open command prompt.
+To run the api server locally, download the "API" folder and then inside the directory, open command prompt. </br>
 In command prompt, type: "uvicorn api:app --host 127.0.0.1 --port 8000 --reload". This will host and run the api server at http://localhost:8000.
 (make sure you install uvicorn using "pip install uvicorn[standard]" in the environment beforehand)
 
