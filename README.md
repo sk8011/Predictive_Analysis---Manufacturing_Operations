@@ -12,5 +12,5 @@ In command prompt, type: "uvicorn api:app --host 127.0.0.1 --port 8000 --reload"
 (make sure you install uvicorn using "pip install uvicorn[standard]" in the environment beforehand) <br>
  <br>
 Now, simply follow the API documentation whose source I've provided above to make requests and get predictions.
- <br>
-Note: <br> Training data i.e. "train.csv" can be found inside the "ML_model" folder and inside that folder, I've also provided the jupyter notebook where I've done all the data preprocessing, analysis and process of selecting right estimator.
+ <br> <br>
+Note: Training data i.e. "train.csv" can be found inside the "ML_model" folder and inside that folder, I've also provided the jupyter notebook where I've done all the data preprocessing, analysis and process of selecting right estimator.
